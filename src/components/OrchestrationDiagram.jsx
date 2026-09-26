@@ -63,11 +63,11 @@ function OrchestrationDiagram() {
 
   return (
     <div
-      className="mt-4 max-w-5xl overflow-x-auto pb-4"
+      className="mt-4 w-full max-w-5xl overflow-hidden pb-4"
       aria-label="Agent orchestration flow"
     >
       <svg
-        className="h-auto min-w-[720px] w-full overflow-visible md:min-w-0"
+        className="h-auto w-full max-w-full overflow-visible"
         viewBox="0 0 920 300"
         role="img"
         aria-labelledby="orchestration-title orchestration-description"

@@ -27,7 +27,7 @@ function Hero() {
               environments. Currently based in Hyderabad, India, and exploring
               opportunities across Europe.
             </p>
-            <div className="mt-9 flex flex-wrap gap-4">
+            <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
               <a
                 href="#mosaic"
                 className="rounded-sm bg-amber-signal px-6 py-3 font-medium text-ink-navy transition-colors hover:bg-amber-signal/85 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-signal"
