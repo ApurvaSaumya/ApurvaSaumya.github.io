@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://apurvasaumya.github.io/sitemap.xml
